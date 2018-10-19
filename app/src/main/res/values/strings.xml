@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SpinGreedy</string>
+    <string name="FACEBOOK_APP_ID">151055672252542</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">a489e04718a101f8bbc00d2352bcaf9a</string>
+    <string name="title_activity_spin_wheel">SpinGreedy</string>
+
+    <string name="AdmobApppId">ca-app-pub-8862043394871407~2310754526</string>
+    <string name="AdmobBannerId">ca-app-pub-8862043394871407/7511110313</string>
+    <string name="AdmobInterestialAd">ca-app-pub-8862043394871407/3239750869</string>
+</resources>

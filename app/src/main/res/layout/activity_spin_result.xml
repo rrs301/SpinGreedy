@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainLayout"
+    tools:context=".SpinResultActivity">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        ads:adSize="SMART_BANNER"
+
+        android:layout_gravity="bottom"
+        ads:adUnitId="ca-app-pub-8862043394871407/7511110313">
+    </com.google.android.gms.ads.AdView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You Win"
+        android:textSize="35dp"
+        android:id="@+id/WinLossText"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/CongratsLogo"/>
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:id="@+id/CongratsLogo"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/congratulationlogo"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="500 Coins"
+        android:textSize="35dp"
+        android:id="@+id/CoinsText"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/CongratsLogo"/>
+    <com.luolc.emojirain.EmojiRainLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/group_emoji_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:per="10"
+        app:duration="7200"
+        app:dropDuration="2400"
+        app:dropFrequency="500"
+        tools:context="com.luolc.emojirain.sample.MainActivity">
+
+
+    </com.luolc.emojirain.EmojiRainLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Collect Coins and Play Again"
+        android:layout_below="@+id/CongratsLogo"
+        android:id="@+id/PlayAgainBtn"
+        android:visibility="invisible"
+        android:onClick="PlayAgainBtn"
+        android:background="#ba4242"
+        android:layout_margin="20dp"/>
+    <!--<com.google.android.gms.ads.AdView-->
+        <!--xmlns:ads="http://schemas.android.com/apk/res-auto"-->
+        <!--android:id="@+id/adView_1"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--ads:adSize="SMART_BANNER"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_gravity="bottom"-->
+        <!--ads:adUnitId="ca-app-pub-8862043394871407/9805159211">-->
+    <!--</com.google.android.gms.ads.AdView>-->
+
+    <com.startapp.android.publish.ads.banner.Banner
+        android:id="@+id/startAppBanner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PayoutActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Payout Option"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:background="#8dd3ec"
+        android:padding="20dp"
+        android:textColor="#fff"
+        android:id="@+id/Text_1"
+        android:layout_centerHorizontal="true"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/Text_1">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:padding="10dp"
+        android:onClick="Paytm_10"
+        android:id="@+id/Relative_1"
+        >
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/paytmupi"
+            android:id="@+id/paytmLogo_1"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rs.10 Paytm "
+            android:textSize="17dp"
+           android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="25000 Coins"
+            android:background="@color/colorPrimary"
+            android:textColor="#fff"
+            android:padding="3dp"
+            android:textSize="17dp"
+           android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="#000"
+        android:layout_margin="3dp"
+        android:id="@+id/line1"
+        android:layout_below="@+id/Relative_1"></View>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:padding="10dp"
+            android:onClick="Paytm_20"
+            android:id="@+id/Relative_2"
+            android:layout_below="@+id/line1"
+            >
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:src="@drawable/paytmupi"
+                android:id="@+id/paytmLogo_3"
+                android:layout_centerVertical="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs.20 Paytm "
+                android:textSize="17dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="50000 Coins"
+                android:background="@color/colorPrimary"
+                android:textColor="#fff"
+                android:padding="3dp"
+                android:textSize="17dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="#000"
+            android:layout_margin="3dp"
+            android:id="@+id/line2"
+            android:layout_below="@+id/Relative_2"></View>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:padding="10dp"
+            android:onClick="Paytm_50"
+            android:id="@+id/Relative_3"
+            android:layout_below="@+id/line2"
+            >
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:src="@drawable/paytmupi"
+                android:id="@+id/paytmLogo_2"
+                android:layout_centerVertical="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs.50 Paytm "
+                android:textSize="17dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="75000 Coins"
+                android:background="@color/colorPrimary"
+                android:textColor="#fff"
+                android:padding="3dp"
+                android:textSize="17dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="#000"
+            android:layout_margin="3dp"
+            android:id="@+id/line3"
+            android:layout_below="@+id/Relative_3"></View>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:padding="10dp"
+            android:onClick="PayPal_2"
+            android:id="@+id/Relative_4"
+            android:layout_below="@+id/line3"
+            >
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:src="@drawable/paypal_logo"
+                android:id="@+id/paytmLogo_4"
+                android:layout_centerVertical="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$ 2 Paypal "
+                android:textSize="17dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="200000 Coins"
+                android:background="@color/colorPrimary"
+                android:textColor="#fff"
+                android:padding="3dp"
+                android:textSize="17dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="#000"
+            android:layout_margin="3dp"
+            android:id="@+id/line4"
+            android:layout_below="@+id/Relative_4"></View>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:padding="10dp"
+            android:onClick="PayPal_5"
+            android:id="@+id/Relative_5"
+
+            android:layout_below="@+id/line4"
+            >
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:src="@drawable/paypal_logo"
+                android:id="@+id/paytmLogo_5"
+                android:layout_centerVertical="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$ 5 Paypal "
+                android:textSize="17dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="500000 Coins"
+                android:background="@color/colorPrimary"
+                android:textColor="#fff"
+                android:padding="3dp"
+                android:textSize="17dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="#000"
+            android:layout_margin="3dp"
+            android:id="@+id/line5"
+            android:layout_below="@+id/Relative_5"></View>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:padding="10dp"
+            android:onClick="Paytm_10"
+            android:id="@+id/Relative_6"
+
+            android:layout_below="@+id/line5"
+            >
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:src="@drawable/jazzlogo"
+                android:id="@+id/paytmLogo_6"
+                android:layout_centerVertical="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs.10 JazzCash "
+                android:textSize="17dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="25000 Coins"
+                android:background="@color/colorPrimary"
+                android:textColor="#fff"
+                android:padding="3dp"
+                android:textSize="17dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="#000"
+            android:layout_margin="3dp"
+            android:id="@+id/line6"
+            android:layout_below="@+id/Relative_6"></View>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:padding="10dp"
+            android:onClick="Paytm_20"
+            android:id="@+id/Relative_7"
+
+            android:layout_below="@+id/line6"
+            >
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:src="@drawable/jazzlogo"
+                android:id="@+id/paytmLogo_7"
+                android:layout_centerVertical="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs.20 JazzCash "
+                android:textSize="17dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="50000 Coins"
+                android:background="@color/colorPrimary"
+                android:textColor="#fff"
+                android:padding="3dp"
+                android:textSize="17dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="#000"
+            android:layout_margin="3dp"
+            android:id="@+id/line7"
+            android:layout_below="@+id/Relative_7"></View>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:padding="10dp"
+            android:onClick="Paytm_50"
+            android:id="@+id/Relative_8"
+
+            android:layout_below="@+id/line7"
+            >
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:src="@drawable/jazzlogo"
+                android:id="@+id/paytmLogo_8"
+                android:layout_centerVertical="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs.50 JazzCash "
+                android:textSize="17dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="500000 Coins"
+                android:background="@color/colorPrimary"
+                android:textColor="#fff"
+                android:padding="3dp"
+                android:textSize="17dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="#000"
+            android:layout_margin="3dp"
+            android:id="@+id/line8"
+            android:layout_below="@+id/Relative_5"></View>
+    </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>

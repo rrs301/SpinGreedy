@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "626975505201",
+    "firebase_url": "https://earnpay-5c626.firebaseio.com",
+    "project_id": "earnpay-5c626",
+    "storage_bucket": "earnpay-5c626.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626975505201:android:cb718cc1e26bf30c",
+        "android_client_info": {
+          "package_name": "com.innocruts.spingreedy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626975505201-n3kfa195eb5me1gt1nmrjq01halo1v0d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3TUUM63Gl6H0JZmmb74DTcMj5IHuhj44"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626975505201:android:dca59bc44ea79f6a",
+        "android_client_info": {
+          "package_name": "com.maclato.videostar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626975505201-n3kfa195eb5me1gt1nmrjq01halo1v0d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3TUUM63Gl6H0JZmmb74DTcMj5IHuhj44"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/wood_bg"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:onClick="ProfileBtn"
+        android:id="@+id/ProfileBoyBtn"
+        android:background="@drawable/rounded_btn_lightwhite"
+        android:src="@drawable/wallet"/>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:onClick="ContactUs"
+        android:id="@+id/envlopLogo"
+        android:layout_below="@+id/ProfileBoyBtn"
+        android:background="@drawable/rounded_btn_lightwhite"
+        android:src="@drawable/envelope"/>
+    <ImageView
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginTop="5dp"
+    android:padding="10dp"
+    android:onClick="Share"
+        android:id="@+id/shareBtn"
+    android:layout_below="@+id/envlopLogo"
+    android:background="@drawable/rounded_btn_lightwhite"
+    android:src="@drawable/share"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:onClick="RateUs"
+
+        android:layout_below="@+id/shareBtn"
+        android:background="@drawable/rounded_btn_lightwhite"
+        android:src="@drawable/star"/>
+    <RelativeLayout
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/relative_2"
+        android:onClick="GetBalance"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/rounded_btn_lightwhite">
+
+
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:padding="5dp"
+        android:onClick="GetBalance"
+       android:id="@+id/CoinIcon"
+        android:src="@drawable/coin"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_centerVertical="true"
+           android:layout_toRightOf="@+id/CoinIcon"
+
+            android:textSize="17dp"
+            android:textColor="#92542e"
+            android:id="@+id/CoinsCount"
+
+            android:layout_alignParentRight="true"
+            android:text="-"
+            />
+        <!--<ImageView-->
+            <!--android:layout_width="35dp"-->
+            <!--android:layout_height="35dp"-->
+            <!--android:src="@drawable/reload"-->
+            <!--android:layout_toRightOf="@+id/CoinsCount"-->
+            <!--/>-->
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/app_logo"
+        android:src="@drawable/greedlogo"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SPIN GREEDY"
+        android:textColor="#f9fafa"
+        android:layout_below="@+id/relative_2"
+        android:layout_marginTop="20dp"
+
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/app_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textColor="#5e3116"
+        android:text="Install and Earn"
+        android:onClick="AppInstall"
+        android:id="@+id/AppInstallBtn"
+        android:layout_marginLeft="90dp"
+
+        android:background="@drawable/woodsign"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/AppInstallBtn"
+        android:layout_centerHorizontal="true"
+
+        android:textColor="#5e3116"
+        android:text="Spin Wheel"
+        android:onClick="SpinWheelBtn"
+        android:id="@+id/SpinWheelBtn"
+        android:layout_marginLeft="90dp"
+
+        android:background="@drawable/woodsign"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/SpinWheelBtn"
+        android:layout_centerHorizontal="true"
+        android:textColor="#5e3116"
+
+        android:text="Scratch Code"
+        android:onClick="ScratchGameBtn"
+        android:id="@+id/ScracthBtn"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/woodsign"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/ScracthBtn"
+        android:layout_centerHorizontal="true"
+
+        android:textColor="#5e3116"
+        android:onClick="FreeCoins"
+        android:text="Tap and Earn"
+        android:id="@+id/FreeCoinsBtn"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/woodsign"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update App"
+        android:layout_alignParentBottom="true"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        android:onClick="UpdateNow"
+        android:id="@+id/UpdateNow"
+        android:layout_marginBottom="6dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/UpdateNow"></RelativeLayout>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        ads:adSize="SMART_BANNER"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        ads:adUnitId="ca-app-pub-8862043394871407/9805159211">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>
