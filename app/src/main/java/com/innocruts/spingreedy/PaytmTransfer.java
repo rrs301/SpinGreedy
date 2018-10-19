@@ -88,6 +88,8 @@ public class PaytmTransfer extends AppCompatActivity {
         GetUserBalanceVolly();
     }
 
+    //Verify User Details
+
     public void Verify()
     {
      //   GetUserBalanceVolly();
